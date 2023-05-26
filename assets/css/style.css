@@ -1,0 +1,35 @@
+/* Font Dois - used in titles and logo */
+@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  font-size: 16px;
+}
+
+header nav {
+  background-color: #002340;
+}
+header nav a {
+  color: #f95639 !important;
+  font-size: 1rem;
+}
+header nav a h1 {
+  font-family: "Dosis", sans-serif;
+  font-size: 1.5rem;
+  line-height: normal;
+  margin: 0px;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  font-size: 1.2rem;
+}
+header nav form#srch button {
+  color: #f95639;
+  outline: none;
+}
+
+#carouselExampleIndicators .carousel-inner {
+  height: 720px;
+}/*# sourceMappingURL=style.css.map */
