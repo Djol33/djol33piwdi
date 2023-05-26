@@ -40,11 +40,22 @@ header{
 }
 
 #carouselExampleIndicators{
+    .nd-img-large{
+        display: block;
+
+    }
+    .nd-img-small{
+        display: none;
+    }
     .carousel-inner{
-        height: 720px;
+
         img{
             background-repeat: no-repeat;
         }
         
     }
 }
+
+
+
+@import "responsive";

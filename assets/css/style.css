@@ -34,9 +34,21 @@ header nav form#srch button {
   outline: none;
 }
 
-#carouselExampleIndicators .carousel-inner {
-  height: 720px;
+#carouselExampleIndicators .nd-img-large {
+  display: block;
+}
+#carouselExampleIndicators .nd-img-small {
+  display: none;
 }
 #carouselExampleIndicators .carousel-inner img {
   background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+  .nd-img-large {
+    display: none !important;
+  }
+  .nd-img-small {
+    display: block !important;
+  }
 }/*# sourceMappingURL=style.css.map */
