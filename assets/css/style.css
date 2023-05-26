@@ -9,11 +9,15 @@ html {
   font-size: 16px;
 }
 
+.bs {
+  box-sizing: border-box !important;
+}
+
 header nav {
-  background-color: #002340;
+  background-color: #003F73;
 }
 header nav a {
-  color: #f95639 !important;
+  color: #fefefe !important;
   font-size: 1rem;
 }
 header nav a h1 {
@@ -26,7 +30,7 @@ header nav a h1 {
   font-size: 1.2rem;
 }
 header nav form#srch button {
-  color: #f95639;
+  color: #fefefe;
   outline: none;
 }
 

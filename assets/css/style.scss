@@ -9,11 +9,15 @@
 html{
     font-size: 16px;
 }
+.bs {
+    box-sizing: border-box  !important;
+  }
+
 header{
     nav{
         background-color: $blue;
         a{
-            color:$orange !important;
+            color:$gray !important;
             font-size: 1rem;
             h1{
                 @include head();
@@ -27,7 +31,7 @@ header{
 
         form#srch{
             button{
-                color:$orange;
+                color:$gray;
                 outline: none;
             }
         }
@@ -38,5 +42,6 @@ header{
 #carouselExampleIndicators{
     .carousel-inner{
         height: 720px;
+        
     }
 }
