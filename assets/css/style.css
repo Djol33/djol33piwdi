@@ -36,4 +36,7 @@ header nav form#srch button {
 
 #carouselExampleIndicators .carousel-inner {
   height: 720px;
+}
+#carouselExampleIndicators .carousel-inner img {
+  background-repeat: no-repeat;
 }/*# sourceMappingURL=style.css.map */

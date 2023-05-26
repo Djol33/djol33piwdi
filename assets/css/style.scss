@@ -42,6 +42,9 @@ header{
 #carouselExampleIndicators{
     .carousel-inner{
         height: 720px;
+        img{
+            background-repeat: no-repeat;
+        }
         
     }
 }
