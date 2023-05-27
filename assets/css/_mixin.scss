@@ -1,5 +1,25 @@
 
 @mixin head(){
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Prompt', sans-serif;
     font-size: 1.5rem;
+}
+
+/* LINK STYLE */
+@mixin btn($var1:$blue, $var2:$gray){
+    padding:0.7rem;
+    font-size: 1rem;
+    background-color: $var1;
+    color:$var2;
+    border-radius: 1.4rem;
+    text-align: center;
+}
+
+@mixin nobgbtn($color:$blue){
+    border:1px solid $color;
+    padding:0.7rem;
+    font-size: 1rem;
+    background-color: transparent;
+    color:$color;
+    border-radius: 1.4rem;
+    text-align: center;
 }

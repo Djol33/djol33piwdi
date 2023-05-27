@@ -1,5 +1,7 @@
 /* Font Dois - used in titles and logo */
 @import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
+/* LINK STYLE */
 * {
   padding: 0px;
   margin: 0px;
@@ -7,6 +9,10 @@
 
 html {
   font-size: 16px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .bs {
@@ -21,7 +27,7 @@ header nav a {
   font-size: 1rem;
 }
 header nav a h1 {
-  font-family: "Dosis", sans-serif;
+  font-family: "Prompt", sans-serif;
   font-size: 1.5rem;
   line-height: normal;
   margin: 0px;
@@ -44,11 +50,54 @@ header nav form#srch button {
   background-repeat: no-repeat;
 }
 
+#img-text {
+  background-color: #f4f4f4;
+}
+#img-text #text p {
+  margin: 0px;
+}
+#img-text #text h2 {
+  font-family: "Prompt", sans-serif;
+  font-size: 1.5rem;
+  font-size: 2rem;
+  margin: 0px;
+}
+#img-text #text a {
+  padding: 0px !important;
+}
+#img-text #text a .btn {
+  padding: 0.7rem;
+  font-size: 1rem;
+  background-color: #003F73;
+  color: #fefefe;
+  border-radius: 1.4rem;
+  text-align: center;
+}
+#img-text #text a .btnnbg {
+  border: 1px solid #003F73;
+  padding: 0.7rem;
+  font-size: 1rem;
+  background-color: transparent;
+  color: #003F73;
+  border-radius: 1.4rem;
+  text-align: center;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#img-text #img img {
+  width: 100%;
+}
+
 @media screen and (max-width: 768px) {
   .nd-img-large {
     display: none !important;
   }
   .nd-img-small {
     display: block !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 12px;
   }
 }/*# sourceMappingURL=style.css.map */
