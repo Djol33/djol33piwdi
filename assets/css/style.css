@@ -59,7 +59,7 @@ header nav form#srch button {
 #img-text #text h2 {
   font-family: "Prompt", sans-serif;
   font-size: 1.5rem;
-  font-size: 2rem;
+  font-size: 2.3rem;
   margin: 0px;
 }
 #img-text #text a {
@@ -85,7 +85,7 @@ header nav form#srch button {
   width: fit-content;
 }
 #img-text #img img {
-  width: 100%;
+  width: 60%;
 }
 
 @media screen and (max-width: 768px) {

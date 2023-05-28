@@ -70,7 +70,7 @@ header{
         }
         h2{
             @include head();
-            font-size: 2rem;
+            font-size: 2.3rem;
             margin: 0px;
         }a{
             padding:0px !important;
@@ -86,7 +86,7 @@ header{
     }
     #img{
         img{
-            width:100%;
+            width:60%;
         }
     }
 }
