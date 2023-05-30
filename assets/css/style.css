@@ -1,6 +1,11 @@
 /* Font Dois - used in titles and logo */
 @import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
+/* Plans */
+@font-face {
+  font-family: Font;
+  src: url("../font/coolvetica compressed hv.otf");
+}
 /* LINK STYLE */
 * {
   padding: 0px;
@@ -75,7 +80,7 @@ header nav form#srch button {
 }
 #img-text #text a .btnnbg {
   border: 1px solid #003F73;
-  padding: 0.7rem;
+  padding: calc(0.7rem - 2px);
   font-size: 1rem;
   background-color: transparent;
   color: #003F73;
@@ -86,6 +91,64 @@ header nav form#srch button {
 }
 #img-text #img img {
   width: 60%;
+}
+
+#plans .plan {
+  background-color: #f4f4f4;
+}
+#plans .plan hr {
+  background-color: #f4f4f4;
+  width: 80%;
+  margin: 0 auto;
+}
+#plans .plan h2 {
+  text-align: center;
+  font-family: "Prompt", sans-serif;
+  font-size: 1.5rem;
+}
+#plans .plan div#note p {
+  text-align: center;
+  margin-bottom: 0px;
+}
+#plans .plan div#note p i {
+  font-style: normal;
+}
+#plans .plan div#note p.price {
+  font-size: 1.5rem;
+  color: #003F73;
+  width: calc(40% - 1px);
+}
+#plans .plan div#note p.price i {
+  font-size: 0.9rem;
+}
+#plans .plan div#note div.devide {
+  height: 20px;
+  background-color: #003F73;
+  width: 1px;
+}
+#plans .plan div#note p.cond {
+  width: calc(40% - 1px);
+  font-size: 0.7rem;
+}
+#plans .plan p {
+  text-align: center;
+}
+#plans .plan p a {
+  padding: 0.7rem;
+  font-size: 1rem;
+  background-color: #003F73;
+  color: #fefefe;
+  border-radius: 1.4rem;
+  text-align: center;
+}
+#plans .plan p a:nth-child(2) {
+  border: 1px solid #003F73;
+  padding: calc(0.7rem - 2px);
+  font-size: 1rem;
+  background-color: transparent;
+  color: #003F73;
+  border-radius: 1.4rem;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
