@@ -92,8 +92,18 @@ header{
 }
 
 #plans{
+    h2#planstit{
+        @include head()
+        
+    }
     .plan{
         background-color: $darkGray;
+        h3{
+            @include head();
+            font-size: 1.3rem;
+            font-weight: normal;
+            text-align: center;
+        }
         hr{
             background-color: $darkGray;
             width: 80%;

@@ -34,6 +34,7 @@ header nav a {
 header nav a h1 {
   font-family: "Prompt", sans-serif;
   font-size: 1.5rem;
+  font-weight: bold;
   line-height: normal;
   margin: 0px;
   font-weight: bold;
@@ -64,6 +65,7 @@ header nav form#srch button {
 #img-text #text h2 {
   font-family: "Prompt", sans-serif;
   font-size: 1.5rem;
+  font-weight: bold;
   font-size: 2.3rem;
   margin: 0px;
 }
@@ -93,8 +95,21 @@ header nav form#srch button {
   width: 60%;
 }
 
+#plans h2#planstit {
+  font-family: "Prompt", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 #plans .plan {
   background-color: #f4f4f4;
+}
+#plans .plan h3 {
+  font-family: "Prompt", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+  font-weight: normal;
+  text-align: center;
 }
 #plans .plan hr {
   background-color: #f4f4f4;
@@ -105,6 +120,7 @@ header nav form#srch button {
   text-align: center;
   font-family: "Prompt", sans-serif;
   font-size: 1.5rem;
+  font-weight: bold;
 }
 #plans .plan div#note p {
   text-align: center;
