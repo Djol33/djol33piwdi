@@ -103,6 +103,13 @@ header nav form#srch button {
 #plans .plan {
   background-color: #f4f4f4;
 }
+#plans .plan .i-tag {
+  font-size: 3rem;
+  top: 5px;
+  left: calc(100% - 15px);
+  color: #003F73;
+  transform: rotate(30deg);
+}
 #plans .plan h3 {
   font-family: "Prompt", sans-serif;
   font-size: 1.5rem;
@@ -165,6 +172,30 @@ header nav form#srch button {
   color: #003F73;
   border-radius: 1.4rem;
   text-align: center;
+}
+
+#email {
+  background-color: #f4f4f4;
+}
+#email h3 {
+  font-family: "Prompt", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#email #newsletter {
+  width: 100%;
+  border-radius: 1.4rem;
+  height: 40px;
+}
+#email #submit {
+  width: 100px;
+  height: 40px;
+  right: 0px;
+  top: 0px;
+  border-radius: 1.4rem;
+  background-color: #003F73;
+  color: #fefefe;
+  border: 0px;
 }
 
 @media screen and (max-width: 768px) {

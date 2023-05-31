@@ -98,6 +98,13 @@ header{
     }
     .plan{
         background-color: $darkGray;
+        .i-tag{
+            font-size: 3rem;
+            top:5px;
+            left: calc(100% - 15px);
+            color:$blue;
+            transform: rotate(30deg);
+        }
         h3{
             @include head();
             font-size: 1.3rem;
@@ -152,6 +159,30 @@ header{
     }
 
 }
+}
+
+
+#email{
+    background-color: $darkGray;
+
+    h3{
+        @include head();
+    }
+    #newsletter{
+        width: 100%;
+        border-radius: 1.4rem;
+        height:40px;
+    }
+    #submit{
+        width:100px;
+        height:40px;
+        right:0px;
+        top:0px;
+        border-radius: 1.4rem;
+        background-color:$blue;
+        color:$gray;
+        border:0px;
+    }
 }
 
 
