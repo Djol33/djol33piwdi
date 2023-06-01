@@ -14,7 +14,43 @@
         display: block !important;
 
     }
+
+    #car-2-1img{
+
+        #img1{
+            background-image: url("../images/try-responsie.jpg");
+        }
+        #img2{
+            background-image: url("../images/carousel2-2-resize.jpg");
+        }
+        #img3{
+            background-image: url("../images/carousel3-min.jpg");
+            background-position-x: left;
+        }
+    }
+
+    #car-ind{
+        margin:0px;
+        flex-direction: column !important;
+
+position: absolute;
+right:0px;
+border-radius: 15px 15px 15px 15px;
+left:auto;
+height:100px;
+padding:5px;
+top:50%;
+transform: translateY(-50%);
+background-color: hsla(250, 24%, 50%, 0.7);
+button{
+    background-color: $darkGray;
+padding:8px;
+box-sizing: border-box;
 }
+}
+
+}
+
 
 @media screen and (max-width:480px) {
     html{

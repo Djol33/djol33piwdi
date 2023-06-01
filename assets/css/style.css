@@ -55,6 +55,13 @@ header nav form#srch button {
 #carouselExampleIndicators .carousel-inner img {
   background-repeat: no-repeat;
 }
+#carouselExampleIndicators .carousel-indicators button {
+  margin: 0px 10px;
+  width: 10px;
+  height: 10px;
+  background-color: #fefefe;
+  border-radius: 50%;
+}
 
 #img-text {
   background-color: #f4f4f4;
@@ -198,6 +205,56 @@ header nav form#srch button {
   border: 0px;
 }
 
+#carousel-benefits {
+  background-color: #f4f4f4;
+}
+#carousel-benefits .carousel-indicators button {
+  margin: 0px 10px;
+  width: 10px;
+  height: 10px;
+  background-color: #fefefe;
+  border-radius: 50%;
+}
+#carousel-benefits .carousel-inner .carousel-item {
+  height: 100%;
+}
+#carousel-benefits .carousel-inner .carousel-item .img {
+  width: 100%;
+}
+#carousel-benefits .carousel-inner .carousel-item #img1 {
+  background-image: url("../images/try-resize.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+#carousel-benefits .carousel-inner .carousel-item #img2 {
+  background-image: url("../images/carousel2-2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+#carousel-benefits .carousel-inner .carousel-item #img3 {
+  background-image: url("../images/carousel2-3.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+#carousel-benefits .carousel-inner .carousel-item .car-1 {
+  background-color: #3c1685;
+  color: #fefefe;
+}
+#carousel-benefits .carousel-inner .carousel-item .car-2 {
+  background-color: #003F73;
+  color: #fefefe;
+}
+#carousel-benefits .carousel-inner .carousel-item .car-3 {
+  background-color: #3c1685;
+  color: #fefefe;
+}
+
 @media screen and (max-width: 768px) {
   html {
     font-size: 14px;
@@ -207,6 +264,34 @@ header nav form#srch button {
   }
   .nd-img-small {
     display: block !important;
+  }
+  #car-2-1img #img1 {
+    background-image: url("../images/try-responsie.jpg");
+  }
+  #car-2-1img #img2 {
+    background-image: url("../images/carousel2-2-resize.jpg");
+  }
+  #car-2-1img #img3 {
+    background-image: url("../images/carousel3-min.jpg");
+    background-position-x: left;
+  }
+  #car-ind {
+    margin: 0px;
+    flex-direction: column !important;
+    position: absolute;
+    right: 0px;
+    border-radius: 15px 15px 15px 15px;
+    left: auto;
+    height: 100px;
+    padding: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: hsla(250, 24%, 50%, 0.7);
+  }
+  #car-ind button {
+    background-color: #f4f4f4;
+    padding: 8px;
+    box-sizing: border-box;
   }
 }
 @media screen and (max-width: 480px) {

@@ -56,6 +56,16 @@ header{
         }
         
     }
+    .carousel-indicators{
+        button{
+            margin:0px 10px;
+            width:10px;
+            height:10px;
+            background-color: $gray;
+            border-radius: 50%;
+        }
+
+    }
 
 }
 
@@ -182,6 +192,72 @@ header{
         background-color:$blue;
         color:$gray;
         border:0px;
+    }
+}
+
+
+#carousel-benefits{
+    background-color: $darkGray;
+
+
+        .carousel-indicators{
+            button{
+                margin:0px 10px;
+                width:10px;
+                height:10px;
+                background-color: $gray;
+                border-radius: 50%;
+            }
+    
+        }
+    
+    .carousel-inner{
+
+        .carousel-item{
+            height:100%;
+            .img{
+                width:100%;
+
+            }
+            #img1{
+                background-image: url("../images/try-resize.jpg") ;
+                background-position: center center;
+                background-repeat: no-repeat;
+
+                background-size: cover;
+                height:400px;
+            }
+            #img2{
+                background-image: url("../images/carousel2-2.jpg") ;
+                background-position: center center;
+                background-repeat: no-repeat;
+
+                background-size: cover;
+                height:400px;
+            }
+            #img3{
+                background-image: url("../images/carousel2-3.jpg") ;
+                background-position: center center;
+                background-repeat: no-repeat;
+
+                background-size: cover;
+                height:400px;
+            }
+            .car-1{
+                background-color: $purple;
+                color:$gray;
+            }
+            .car-2{
+                background-color: $blue;
+                color:$gray;
+
+            }
+            .car-3{
+                background-color: $purple;
+                color:$gray;
+
+            }
+        }
     }
 }
 
