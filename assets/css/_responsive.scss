@@ -1,5 +1,9 @@
 
-
+@media screen and (max-width:991px){
+    .text-car{
+        height:300px;
+    }
+}
 
 @media screen and (max-width:768px) {
 
@@ -18,16 +22,18 @@
     #car-2-1img{
 
         #img1{
-            background-image: url("../images/try-responsie.jpg");
+            background-image: url("../images/try-responsie.jpg") !important;
         }
         #img2{
-            background-image: url("../images/carousel2-2-resize.jpg");
+            background-image: url("../images/carousel2-2-resize.jpg") !important;
         }
         #img3{
-            background-image: url("../images/carousel3-min.jpg");
-            background-position-x: left;
+            background-image: url("../images/carousel2-3-responsive.jpg") !important;
+            background-position-x: left !important;
         }
     }
+
+
 
     #car-ind{
         margin:0px;

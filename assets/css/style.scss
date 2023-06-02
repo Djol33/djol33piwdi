@@ -6,6 +6,7 @@
     padding:0px;
     margin:0px;
 }
+/* GLOBAL CLASSES */
 html{
     font-size: 16px;
 }
@@ -14,6 +15,11 @@ a{text-decoration: none;
 .bs {
     box-sizing: border-box  !important;
   }
+
+.title{
+    @include head();
+}
+
 
 header{
     nav{
@@ -215,6 +221,14 @@ header{
 
         .carousel-item{
             height:100%;
+            p.learn-more{
+                bottom: 0px;
+                left:0px;
+                a{
+                    @include nobgbtn($gray);
+                }
+            }
+
             .img{
                 width:100%;
 
@@ -260,6 +274,27 @@ header{
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MODALS */
+
+
+
 
 
 @import "responsive";

@@ -12,6 +12,7 @@
   margin: 0px;
 }
 
+/* GLOBAL CLASSES */
 html {
   font-size: 16px;
 }
@@ -22,6 +23,12 @@ a {
 
 .bs {
   box-sizing: border-box !important;
+}
+
+.title {
+  font-family: "Prompt", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 header nav {
@@ -218,6 +225,19 @@ header nav form#srch button {
 #carousel-benefits .carousel-inner .carousel-item {
   height: 100%;
 }
+#carousel-benefits .carousel-inner .carousel-item p.learn-more {
+  bottom: 0px;
+  left: 0px;
+}
+#carousel-benefits .carousel-inner .carousel-item p.learn-more a {
+  border: 1px solid #fefefe;
+  padding: calc(0.7rem - 2px);
+  font-size: 1rem;
+  background-color: transparent;
+  color: #fefefe;
+  border-radius: 1.4rem;
+  text-align: center;
+}
 #carousel-benefits .carousel-inner .carousel-item .img {
   width: 100%;
 }
@@ -255,6 +275,12 @@ header nav form#srch button {
   color: #fefefe;
 }
 
+/* MODALS */
+@media screen and (max-width: 991px) {
+  .text-car {
+    height: 300px;
+  }
+}
 @media screen and (max-width: 768px) {
   html {
     font-size: 14px;
@@ -266,14 +292,14 @@ header nav form#srch button {
     display: block !important;
   }
   #car-2-1img #img1 {
-    background-image: url("../images/try-responsie.jpg");
+    background-image: url("../images/try-responsie.jpg") !important;
   }
   #car-2-1img #img2 {
-    background-image: url("../images/carousel2-2-resize.jpg");
+    background-image: url("../images/carousel2-2-resize.jpg") !important;
   }
   #car-2-1img #img3 {
-    background-image: url("../images/carousel3-min.jpg");
-    background-position-x: left;
+    background-image: url("../images/carousel2-3-responsive.jpg") !important;
+    background-position-x: left !important;
   }
   #car-ind {
     margin: 0px;
