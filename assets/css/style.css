@@ -280,6 +280,9 @@ header nav form#srch button {
   .text-car {
     height: 300px;
   }
+  .navbar-toggler {
+    background-color: #fefefe;
+  }
 }
 @media screen and (max-width: 768px) {
   html {
