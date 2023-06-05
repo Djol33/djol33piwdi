@@ -19,13 +19,17 @@ a{text-decoration: none;
 .title{
     @include head();
 }
-
+.sub-title{
+    @include head();
+    font-size: 1.5rem;
+}
 
 header{
     nav{
         background-color: $blue;
         a{
             color:$gray !important;
+            padding:0px;
             font-size: 1rem;
             h1{
                 @include head();
@@ -34,6 +38,13 @@ header{
                 font-weight: bold;
                 letter-spacing: 0.2rem;
                 font-size: 1.2rem;
+                color:$gray;
+                img{
+                    width: 50px;
+                }
+                span#logo-1{
+                    font-size: 0.8rem;
+                }
             }
         }
 
@@ -277,17 +288,86 @@ header{
 
 
 
+#phone-holder{
+    h2{
+        @include head();
+    }
+    background-color: $darkGray;
+    @for $i from 0 through 3 {
+        #img#{$i}{
+        background-position-x: $i*198px ;
+        $i:$i+1;
+
+    }
+}
+    .img{
+        width:198px;
+        height:400px;
+        background-image: url("../images/css_sprite.png");
+        background-size: cover
+    }
+    p{
+        i{
+            font-size: 1rem;
+            
+        }
+    }
+
+    .phone-width{
+        width: 60%;
+        margin:0 auto;
+
+    }
+
+
+
+}
 
 
 
 
 
+footer{
+    background-color: $blue;
+    color:$gray;
+    .catch-ico{
+        a{
+            color:$gray;
 
+        i{
+            font-size: 2rem;
+            
+        }        }
+    }
+    .round-none{
+        border-radius: 0px !important;
+    }
+    p{
+        a{
+            color:$gray;
+        }
+    }
+    a{
+        h1{
 
-
-
-
-
+            @include head();
+            line-height: normal;
+            margin:0px;
+            font-weight: bold;
+            letter-spacing: 0.2rem;
+            font-size: 2rem;
+            color:$gray;
+            span{
+                font-size: 1.6rem;
+            }
+        }
+    }
+    .acc-catch{
+        a{
+            color:$black;
+        }
+    }
+}
 
 
 

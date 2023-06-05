@@ -31,11 +31,19 @@ a {
   font-weight: bold;
 }
 
+.sub-title {
+  font-family: "Prompt", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
 header nav {
   background-color: #003F73;
 }
 header nav a {
   color: #fefefe !important;
+  padding: 0px;
   font-size: 1rem;
 }
 header nav a h1 {
@@ -47,6 +55,13 @@ header nav a h1 {
   font-weight: bold;
   letter-spacing: 0.2rem;
   font-size: 1.2rem;
+  color: #fefefe;
+}
+header nav a h1 img {
+  width: 50px;
+}
+header nav a h1 span#logo-1 {
+  font-size: 0.8rem;
 }
 header nav form#srch button {
   color: #fefefe;
@@ -273,6 +288,74 @@ header nav form#srch button {
 #carousel-benefits .carousel-inner .carousel-item .car-3 {
   background-color: #3c1685;
   color: #fefefe;
+}
+
+#phone-holder {
+  background-color: #f4f4f4;
+}
+#phone-holder h2 {
+  font-family: "Prompt", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#phone-holder #img0 {
+  background-position-x: 0px;
+}
+#phone-holder #img1 {
+  background-position-x: 198px;
+}
+#phone-holder #img2 {
+  background-position-x: 396px;
+}
+#phone-holder #img3 {
+  background-position-x: 594px;
+}
+#phone-holder .img {
+  width: 198px;
+  height: 400px;
+  background-image: url("../images/css_sprite.png");
+  background-size: cover;
+}
+#phone-holder p i {
+  font-size: 1rem;
+}
+#phone-holder .phone-width {
+  width: 60%;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #003F73;
+  color: #fefefe;
+}
+footer .catch-ico a {
+  color: #fefefe;
+}
+footer .catch-ico a i {
+  font-size: 2rem;
+}
+footer .round-none {
+  border-radius: 0px !important;
+}
+footer p a {
+  color: #fefefe;
+}
+footer a h1 {
+  font-family: "Prompt", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: normal;
+  margin: 0px;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
+  color: #fefefe;
+}
+footer a h1 span {
+  font-size: 1.6rem;
+}
+footer .acc-catch a {
+  color: #212529;
 }
 
 /* MODALS */
