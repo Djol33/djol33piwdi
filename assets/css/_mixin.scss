@@ -17,7 +17,7 @@
 
 @mixin nobgbtn($color:$blue){
     border:1px solid $color;
-    padding:calc(0.7rem - 2px );
+    padding:calc(0.7rem );
     font-size: 1rem;
     background-color: transparent;
     color:$color;

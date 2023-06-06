@@ -111,14 +111,12 @@ header nav form#srch button {
 }
 #img-text #text a .btnnbg {
   border: 1px solid #003F73;
-  padding: calc(0.7rem - 2px);
+  padding: 0.7rem;
   font-size: 1rem;
   background-color: transparent;
   color: #003F73;
   border-radius: 1.4rem;
   text-align: center;
-  width: -moz-fit-content;
-  width: fit-content;
 }
 #img-text #img img {
   width: 60%;
@@ -195,7 +193,7 @@ header nav form#srch button {
 }
 #plans .plan p a:nth-child(2) {
   border: 1px solid #003F73;
-  padding: calc(0.7rem - 2px);
+  padding: 0.7rem;
   font-size: 1rem;
   background-color: transparent;
   color: #003F73;
@@ -246,7 +244,7 @@ header nav form#srch button {
 }
 #carousel-benefits .carousel-inner .carousel-item p.learn-more a {
   border: 1px solid #fefefe;
-  padding: calc(0.7rem - 2px);
+  padding: 0.7rem;
   font-size: 1rem;
   background-color: transparent;
   color: #fefefe;
