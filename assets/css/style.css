@@ -38,6 +38,15 @@ a {
   font-size: 1.5rem;
 }
 
+.no-round {
+  border-radius: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .no-round {
+    border-radius: 0px !important;
+  }
+}
 header nav {
   background-color: #003F73;
 }
