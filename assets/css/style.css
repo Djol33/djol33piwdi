@@ -365,6 +365,81 @@ footer .acc-catch a {
   color: #212529;
 }
 
+#mobile-offer .card:hover {
+  box-shadow: 0px 0px 15px 5px #f4f4f4;
+}
+#mobile-offer .card .title {
+  font-size: 1.2rem;
+  border-radius: 5px 0px 20px 0px;
+  padding: 1rem 0.7rem;
+  color: #fefefe;
+  background-color: #003F73;
+  margin: 0px;
+}
+#mobile-offer .card h5 {
+  font-size: 1rem;
+  margin: 0px !important;
+}
+#mobile-offer .card .card-title {
+  text-align: center;
+}
+#mobile-offer .card .btn-primary {
+  background-color: #003F73 !important;
+}
+#mobile-offer .card .btn {
+  padding: 0.7rem;
+  font-size: 1rem;
+  background-color: #003F73;
+  color: #fefefe;
+  border-radius: 1.4rem;
+  text-align: center;
+}
+#mobile-offer .card .button-holder {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0px;
+  left: 0px;
+}
+#mobile-offer .card .button-holder i {
+  font-size: 2rem;
+}
+#mobile-offer .slika-1 {
+  width: 228px;
+  background-position: 0px 0px;
+}
+#mobile-offer .slika-2 {
+  width: 228px;
+  background-position: -137px 0px;
+}
+#mobile-offer .slika-3 {
+  width: 228px;
+  background-position: -277px 0px;
+}
+#mobile-offer .slika-4 {
+  width: 228px;
+  background-position: -419px 0px;
+}
+#mobile-offer .slika-1 {
+  width: 137px !important;
+}
+#mobile-offer .slika-2 {
+  width: 140px !important;
+}
+#mobile-offer .slika-3 {
+  width: 142px !important;
+}
+#mobile-offer .slika-4 {
+  width: 146px !important;
+}
+#mobile-offer .slika {
+  transform-origin: center;
+  transform: scale(0.9);
+  height: 300px;
+  background-image: url("../images/phone/ponuda1.png");
+}
+
 /* MODALS */
 @media screen and (max-width: 991px) {
   .text-car {
