@@ -41,18 +41,18 @@
 
 
     #car-ind{
-        margin:0px;
+    
+
+        width:fit-content;
+        margin:0px auto;
 
 
 
-
-padding:5px;
-
-button{
-    background-color: $darkGray;
-    padding:8px;
-box-sizing: border-box;
 }
+footer{
+    i{
+        font-size: 1.5rem;
+    }
 }
 
 }

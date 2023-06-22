@@ -1,0 +1,106 @@
+/*
+
+
+
+TEMPLATE
+
+
+
+               <div class="borderr">
+               <div class="red"></div>
+</div>
+
+
+
+
+                */
+
+
+.circle{
+    width:20px;
+    height:20px;
+    box-sizing: border-box;
+    padding:2px;
+    border-radius: 50%;
+}
+
+
+.wrap{
+    width: 100%;
+    height:50px;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.purple{
+@extend .circle;
+    
+    background-color: #26004d;
+    background-image: radial-gradient(at 15% 93%, hsla(222, 85%, 54%, 1) 0, hsla(222, 85%, 54%, 0) 50%),
+    radial-gradient(at 43% 11%, hsla(258, 86%, 70%, 1) 0, hsla(258, 86%, 70%, 0) 50%);
+border-radius: 50%;
+
+
+}
+.borderr{
+    padding:2px;
+    border:1px solid white;
+    border-radius: 50%;
+    margin-right: 15px;
+
+    &:hover{
+        border:1px solid black;
+
+    }
+}
+
+.red{
+    @extend .circle;
+    background-color: #fd1c1c;
+background-image: radial-gradient(at 8% 88%, hsla(315, 95%, 61%, 1) 0, hsla(315, 95%, 61%, 0) 50%),
+radial-gradient(at 34% 1%, hsla(87, 94%, 69%, 1) 0, hsla(87, 94%, 69%, 0) 50%);
+}
+
+
+.blue{
+    @extend .circle;
+    background-color: #003e8f;
+    background-image: radial-gradient(at 99% 78%, hsla(219, 91%, 59%, 1) 0, hsla(219, 91%, 59%, 0) 50%);}
+
+    .yellow{
+        @extend .circle;
+        background-color: #f2d726;
+background-image: radial-gradient(at 12% 27%, hsla(39, 93%, 52%, 1) 0, hsla(39, 93%, 52%, 0) 50%);
+    }
+
+
+
+    .pink{
+        @extend .circle;
+        background-color: #e224f0;
+background-image: radial-gradient(at 50% 13%, hsla(50, 86%, 59%, 1) 0, hsla(50, 86%, 59%, 0) 50%);
+    }
+
+    .cyan{
+        @extend .circle;
+        background-color: #24d8f0;
+background-image: radial-gradient(at 10% 84%, hsla(94, 92%, 70%, 1) 0, hsla(94, 92%, 70%, 0) 50%);
+    }
+    .gray{
+        @extend .circle;
+        background-color:hsla(0,0%,0%,1);
+background-image:
+radial-gradient(at 54% 67%, hsla(343,0%,0%,1) 0px, transparent 50%),
+radial-gradient(at 17% 55%, hsla(13,64%,91%,1) 0px, transparent 50%),
+radial-gradient(at 100% 100%, hsla(355,100%,93%,1) 0px, transparent 50%);
+    }
+
+    .white{
+        @extend .circle;
+        background-color:hsla(0,0%,100%,1);
+background-image:
+radial-gradient(at 61% 15%, hsla(75,0%,70%,1) 0px, transparent 50%),
+radial-gradient(at 29% 73%, hsla(0,0%,0%,0.59) 0px, transparent 50%),
+radial-gradient(at 83% 71%, hsla(0,0%,76%,1) 0px, transparent 50%);
+    }

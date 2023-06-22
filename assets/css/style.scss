@@ -1,7 +1,7 @@
 @import "variables";
 @import "font";
 @import "mixin";
-
+@import "grad";
 *{
     padding:0px;
     margin:0px;
@@ -9,6 +9,7 @@
 /* GLOBAL CLASSES */
 html{
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 a{text-decoration: none;
 }
@@ -24,7 +25,12 @@ a{text-decoration: none;
     font-size: 1.5rem;
 }
 
-
+.bg-gray{
+    background-color: $darkGray;
+}
+.bg-lgray{
+    background-color: $gray;
+}
 .no-round{
 border-radius: 0px;
 }
@@ -61,6 +67,9 @@ header{
         }
 
         form#srch{
+            input{
+                border-radius: 50px;
+            }
             button{
                 color:$gray;
                 outline: none;
@@ -86,6 +95,7 @@ header{
         
     }
     .carousel-indicators{
+        margin-bottom: 0px;
         button{
             margin:0px 10px;
             width:10px;
@@ -299,7 +309,7 @@ header{
 }
 
 
-
+/**********************************************/
 #phone-holder{
     h2{
         @include head();
@@ -324,7 +334,16 @@ header{
             
         }
     }
-
+    .col-12{
+        margin:0px auto;
+        a{
+            display: block;
+            width: 100%;
+            margin: 15px auto;
+            @include nobgbtn();
+            margin-bottom: 0px;
+        }
+    }
     .phone-width{
         width: 60%;
         margin:0 auto;
@@ -420,9 +439,15 @@ footer{
 
 
 
-
+#mp_title{
+    @include head();
+}
 #mobile-offer{
     .card{
+        .wrap{
+            height:fit-content;
+            margin-bottom: 10px;
+        }
         &:hover{
             box-shadow: 0px 0px 15px 5px $darkGray;
         }
@@ -482,14 +507,79 @@ footer{
     .slika{
 
         transform-origin: center;
-        transform:scale(0.9);
+        transform:scale(1);
         height:300px;
         background-image: url("../images/phone/ponuda1.png");
 
         
     }
+
+
+
+    $niz3 :-137px, -415px,-276px,0px;
+    $wid:139px, 148px,139px, 137px;
+    $i:5;
+    @each $element in $wid{
+        .slika-#{$i}{
+            width:$element  !important;
+
+        }
+        $i:$i+1;
+    }
+    $i:5;
+
+    @each $element in $niz3{
+        .slika-#{$i}{
+            background-position:$element 0px;
+
+        }
+        $i:$i+1;
+    }
+    .slikaa{
+        transform-origin: center;
+        transform:scale(0.9);
+        height:300px;
+        background-image: url("../images/phone/ponuda3.png");
+
+        
+    }
+
+.slikaa-home{
+    @for $i from 0 through 3 {
+
+        .slikaa-#{$i}{
+
+        background-position-x:-$i *148px ;
+        $i:$i+1;
+
+    }
+}
+    .img{
+        width:148px;
+        height:300px;
+        background-image: url("../images/phone/css_spriteresized.png");
+        background-size: cover;
+        transform: scale(0.9);
+    }
 }
 
+}
+.card-info{
+    justify-content: flex-start;
+    p{
+        color:$black;
+    margin-left:10px;
+    padding-right:10px;
+    margin-bottom: 0px;
+    border-right: 1px solid $darkerGray;
+    &:first-child{
+        margin-left: 0px;
+    }
+    &:last-child{
+        border-right: none;
+    }
+}
+}
 
 
 
