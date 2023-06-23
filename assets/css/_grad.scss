@@ -58,8 +58,8 @@ border-radius: 50%;
 .red{
     @extend .circle;
     background-color: #fd1c1c;
-background-image: radial-gradient(at 8% 88%, hsla(315, 95%, 61%, 1) 0, hsla(315, 95%, 61%, 0) 50%),
-radial-gradient(at 34% 1%, hsla(87, 94%, 69%, 1) 0, hsla(87, 94%, 69%, 0) 50%);
+
+    background-image: radial-gradient(at 33% 38%, hsla(19, 95%, 61%, 1) 0, hsla(19, 95%, 61%, 0) 50%);
 }
 
 

@@ -57,7 +57,7 @@ TEMPLATE
 
 .red {
   background-color: #fd1c1c;
-  background-image: radial-gradient(at 8% 88%, hsl(315, 95%, 61%) 0, hsla(315, 95%, 61%, 0) 50%), radial-gradient(at 34% 1%, hsl(87, 94%, 69%) 0, hsla(87, 94%, 69%, 0) 50%);
+  background-image: radial-gradient(at 33% 38%, hsl(19, 95%, 61%) 0, hsla(19, 95%, 61%, 0) 50%);
 }
 
 .blue {
@@ -167,9 +167,14 @@ header nav a h1 span#logo-1 {
 header nav form#srch input {
   border-radius: 50px;
 }
-header nav form#srch button {
+header nav form#srch .fa-magnifying-glass {
   color: #fefefe;
-  outline: none;
+}
+header nav button {
+  border: 0px !important;
+}
+header nav span.navbar-toggler-icon {
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>") ;
 }
 
 #carouselExampleIndicators .nd-img-large {
@@ -669,13 +674,42 @@ footer .acc-catch button:not(.collapsed)::after {
   border-right: none;
 }
 
+/* AUTHOR */
+#autor {
+  height: 800px;
+}
+#autor img {
+  width: 500px;
+  height: 500px;
+}
+#autor div {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+#autor div p {
+  font-size: 5rem;
+}
+#autor div p.a {
+  font-size: 4rem;
+}
+
+/*        CONTACT        */
+#contact {
+  background-color: #f4f4f4;
+}
+#contact .btn-primary {
+  background-color: #003F73;
+}
+
+#location {
+  background-color: #f4f4f4;
+}
+
 /* MODALS */
 @media screen and (max-width: 991px) {
   .text-car {
     height: 300px;
-  }
-  .navbar-toggler {
-    background-color: #fefefe;
   }
 }
 @media screen and (max-width: 768px) {
