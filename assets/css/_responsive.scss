@@ -53,6 +53,9 @@ footer{
     }
 }
 
+.rounded{
+    border-radius: 0px !important;
+}
 }
 
 
@@ -60,5 +63,9 @@ footer{
     html{
         font-size: 12px;
     }
+    
+}
+
+@media screen and (max-width:768px) {
     
 }

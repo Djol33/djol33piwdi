@@ -675,22 +675,10 @@ footer .acc-catch button:not(.collapsed)::after {
 }
 
 /* AUTHOR */
-#autor {
-  height: 800px;
-}
-#autor img {
-  width: 500px;
-  height: 500px;
-}
-#autor div {
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
-}
-#autor div p {
+#author .row .col-12 div p {
   font-size: 5rem;
 }
-#autor div p.a {
+#author .row .col-12 div p.a {
   font-size: 4rem;
 }
 
@@ -704,6 +692,9 @@ footer .acc-catch button:not(.collapsed)::after {
 
 #location {
   background-color: #f4f4f4;
+}
+#location a {
+  color: rgb(71, 71, 71);
 }
 
 /* MODALS */
@@ -739,6 +730,9 @@ footer .acc-catch button:not(.collapsed)::after {
   }
   footer i {
     font-size: 1.5rem;
+  }
+  .rounded {
+    border-radius: 0px !important;
   }
 }
 @media screen and (max-width: 480px) {

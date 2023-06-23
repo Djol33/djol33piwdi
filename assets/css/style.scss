@@ -597,25 +597,24 @@ footer{
 
 
 /* AUTHOR */
-#autor{
-    height:800px;
-    img{
-        width:500px;
-        height:500px;
-
-    }
-    div{
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-between;
-        p{
-            font-size: 5rem;
-            &.a{
-                font-size: 4rem;
+#author{
+   
+    .row{
+        .col-12{
+            div{
+            p{
+                font-size: 5rem;
+                &.a{
+                    font-size: 4rem;
+                }
+                
             }
-            
+        }
         }
     }
+
+  
+
 }
 
 
@@ -638,6 +637,9 @@ footer{
 #location
 {
     background-color: $darkGray;
+    a{
+        color:$darkerGray
+    }
 }
 
 /* MODALS */
